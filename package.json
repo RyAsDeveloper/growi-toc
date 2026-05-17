@@ -1,0 +1,31 @@
+{
+  "name": "growi-remark-toc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/client-entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/client-entry.tsx --format cjs,esm --dts"
+  },
+  "growiPlugin": {
+    "types": [
+      "client-entries"
+    ],
+    "entries": {
+      "client-entry": "./dist/client-entry.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "rehype-slug": "^6.0.0",
+    "remark-toc": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
