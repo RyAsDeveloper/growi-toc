@@ -8,13 +8,10 @@
     "build": "tsup src/client-entry.tsx --format cjs,esm --dts"
   },
   "growiPlugin": {
-    "schemaVersion": "1.0.0",
+    "schemaVersion": "4",
     "types": [
       "script"
-    ],
-    "entries": {
-      "client-entry": "./dist/client-entry.js"
-    }
+    ]
   },
   "keywords": [],
   "author": "",
