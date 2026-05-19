@@ -9,7 +9,7 @@
   "growiPlugin": {
     "schemaVersion": "4",
     "types": [
-      "client-app"
+      "script"
     ],
     "entries": {
       "client-app": "./dist/client-entry.js"
