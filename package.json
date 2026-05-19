@@ -1,6 +1,7 @@
 {
   "name": "growi-plugin-custom-toc",
   "version": "1.0.0",
+  "main": "dist/client-entry.js",
   "type": "module",
   "description": "Custom TOC generator for GROWI",
   "scripts": {
@@ -12,7 +13,7 @@
       "script"
     ],
     "entries": {
-      "client-app": "./dist/client-entry.js"
+      "script": "dist/client-entry.js"
     }
   },
   "dependencies": {
