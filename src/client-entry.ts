@@ -1,5 +1,7 @@
 import remarkToc from "remark-toc";
 
+console.log("★ プラグインのスクリプトファイル自体はロードされました！");
+
 type Options = { remarkPlugins: any[] };
 type ViewOptions = Options;
 type Func = any;

@@ -418,6 +418,7 @@ function V(e) {
 }
 //#endregion
 //#region src/client-entry.ts
+console.log("★ プラグインのスクリプトファイル自体はロードされました！");
 var H = () => {
 	if (growiFacade == null || growiFacade.markdownRenderer == null) return;
 	let { optionsGenerators: e } = growiFacade.markdownRenderer, t = [V, {

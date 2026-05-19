@@ -1,4 +1,5 @@
 import remarkToc from "remark-toc";
+console.log("★ プラグインのスクリプトファイル自体はロードされました！");
 const activate = () => {
     if (growiFacade == null || growiFacade.markdownRenderer == null) {
         return;
