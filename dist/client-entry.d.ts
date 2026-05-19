@@ -1,3 +1,0 @@
-declare const activate: () => void;
-
-export { activate };
