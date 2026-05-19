@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/client-entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/client-entry.tsx --format cjs,esm --dts"
+    "dev": "vite",
+    "build": "tsc && vite build"
   },
   "growiPlugin": {
     "schemaVersion": "4",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/react": "^19.2.14",
     "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13"
   }
 }
